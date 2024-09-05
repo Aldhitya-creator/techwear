@@ -1,0 +1,76 @@
+.embla {
+    overflow: hidden;
+  }
+  .embla__container {
+    display: flex;
+  }
+  .embla__slide {
+    flex: 0 0 100%;
+    min-width: 0;
+  }
+    
+@font-face {
+    font-family: united;
+    src: url('/assets/fonts/united.otf') format("opentype");
+}
+@font-face{
+    font-family: valorax;
+    src: url('/assets/fonts/valorax.otf') format("opentype");
+}
+@font-face{
+    font-family: zou-ver2;
+    src: url('/assets/fonts/002zouver.2-Regular.ttf') format("truetype");
+}
+@font-face{
+    font-family: saiba-45;
+    src: url('/assets/fonts/SAIBA-45.otf') format("opentype");
+}
+.custom-img {
+    background-image: url("/assets/img/techwear-b.png");
+  }
+.united{
+    font-family: united;
+}
+.valorax{
+    font-family: valorax;
+}
+.zou-ver2{
+    font-family: zou-ver2;
+}
+.saiba-45{
+    font-family: saiba-45;
+}
+.doughnut { 
+    border: 50px solid #f00;
+    border-radius: 100px;
+    height:100px;
+    width:100px;
+}
+.bg-hoodie{
+    background-image: url('/assets/img/hoodie-b.png');
+}
+.bg-pattern{
+    background-image: url('/assets/img/pattern.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.trapzoid{
+    clip-path: polygon(0 0, 100% 0, 73% 33%, 26% 33%);
+}
+.split1 {
+    background: linear-gradient(to right, white 50%, black 50%);
+}
+.split2 {
+    background-color: #87907D;
+}
+.text-split{
+    background: linear-gradient(to right, black 50%, white 50%);
+    -webkit-text-fill-color: transparent;
+}
+.box-border {
+    z-index: 1; 
+}  
+.box-border::before{
+    border-radius: 20px 0 0 20px;
+    z-index: -1;
+}
